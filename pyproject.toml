@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "shadowgrid-threat-fusion"
+version = "0.1.0"
+description = "AI-driven threat fusion for cybersecurity dashboards"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+feedparser = "^6.0.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
